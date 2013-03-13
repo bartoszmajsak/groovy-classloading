@@ -1,3 +1,5 @@
+### It's not a bug! It's a feature - http://bugs.sun.com/view_bug.do?bug_id=4761949
+
 Following project demonstrates a problem (?) with classloading in Groovy 2.0.
 
 Invoking `groovyClassLoader.getResource("groovy")` returns `null`, but when using Groovy 1.8 it returns URL to the jar file from classpath (groovy-all).
